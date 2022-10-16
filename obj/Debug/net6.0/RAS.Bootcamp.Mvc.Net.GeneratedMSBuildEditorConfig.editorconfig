@@ -71,22 +71,6 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUGVuanVhbC9JbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/diahnurkhasanah/Projects/RAS.Bootcamp.Mvc.Net/Views/Product/Create.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHJvZHVjdC9DcmVhdGUuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[/Users/diahnurkhasanah/Projects/RAS.Bootcamp.Mvc.Net/Views/Product/Delete.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHJvZHVjdC9EZWxldGUuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[/Users/diahnurkhasanah/Projects/RAS.Bootcamp.Mvc.Net/Views/Product/Edit.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHJvZHVjdC9FZGl0LmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[/Users/diahnurkhasanah/Projects/RAS.Bootcamp.Mvc.Net/Views/Product/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHJvZHVjdC9JbmRleC5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
 [/Users/diahnurkhasanah/Projects/RAS.Bootcamp.Mvc.Net/Views/ProductTemp/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHJvZHVjdFRlbXAvQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
@@ -113,6 +97,22 @@ build_metadata.AdditionalFiles.CssScope =
 
 [/Users/diahnurkhasanah/Projects/RAS.Bootcamp.Mvc.Net/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/diahnurkhasanah/Projects/RAS.Bootcamp.Mvc.Net/Views/User/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVXNlci9DcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/diahnurkhasanah/Projects/RAS.Bootcamp.Mvc.Net/Views/User/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVXNlci9EZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/diahnurkhasanah/Projects/RAS.Bootcamp.Mvc.Net/Views/User/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVXNlci9FZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/diahnurkhasanah/Projects/RAS.Bootcamp.Mvc.Net/Views/User/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVXNlci9JbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/diahnurkhasanah/Projects/RAS.Bootcamp.Mvc.Net/Views/_ViewImports.cshtml]

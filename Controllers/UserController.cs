@@ -12,14 +12,14 @@ using RAS.Bootcamp.Mvc.Net.Models.Entities;
 
 namespace RAS.Bootcamp.Mvc.Net.Controllers
 {
-    public class ProductController : Controller
+    public class UserController : Controller
     {
         // GET: /<controller>/
 
         private readonly AppDbContext _dbContext;
         private static List<User> users = new List<User>();
 
-        public ProductController(ILogger<ProductController> logger, AppDbContext dbContext)
+        public UserController(ILogger<UserController> logger, AppDbContext dbContext)
         {
             _dbContext = dbContext;
         }

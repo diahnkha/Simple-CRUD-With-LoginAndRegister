@@ -1,10 +1,22 @@
 ﻿<Properties StartupConfiguration="{ED5C1EB3-DCAC-4B3C-BF24-CF7D799D71C4}|Default">
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.RAS.Bootcamp.Mvc.Net PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Views/User/Create.cshtml">
+    <Files>
+      <File FileName="Views/Pembeli/Index.cshtml" Line="17" Column="21" />
+      <File FileName="Views/Shared/_Layout.cshtml" Line="32" Column="91" />
+      <File FileName="Views/Pembeli/Create.cshtml" Line="1" Column="1" />
+      <File FileName="Models/Entities/Pembeli.cs" Line="1" Column="1" />
+      <File FileName="Views/Pembeli/Edit.cshtml" Line="1" Column="1" />
+      <File FileName="Controllers/PembeliController.cs" Line="42" Column="1" />
+      <File FileName="Controllers/ProductController.cs" Line="11" Column="51" />
+      <File FileName="Views/Product/User" Line="1" Column="1" />
+    </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
@@ -14,17 +26,14 @@
                 <Node name="FrameworkReferences" expanded="True" />
               </Node>
               <Node name="Controllers" expanded="True" />
-              <Node name="Models" expanded="True">
-                <Node name="Entities" expanded="True">
-                  <Node name="User.cs" selected="True" />
-                </Node>
-              </Node>
+              <Node name="Models" expanded="True" />
               <Node name="Properties" expanded="True" />
               <Node name="Views" expanded="True">
                 <Node name="Barang" expanded="True" />
-                <Node name="Product" expanded="True" />
-                <Node name="ProductTemp" expanded="True" />
+                <Node name="Home" expanded="True" />
+                <Node name="Product" selected="True" />
                 <Node name="Shared" expanded="True" />
+                <Node name="User" expanded="True" />
               </Node>
               <Node name="wwwroot" expanded="True" />
             </Node>
@@ -36,6 +45,4 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.RAS.Bootcamp.Mvc.Net PreferredExecutionTarget="/Applications/Google Chrome.app" />
 </Properties>

@@ -11,7 +11,6 @@
     <None Remove="Microsoft.EntityFrameworkCore" />
     <None Remove="Npgsql.EntityFrameworkCore.PostgreSQL" />
     <None Remove="Models\Entities\" />
-    <None Remove="Views\Product\" />
     <None Remove="Microsoft.VisualStudio.Web.CodeGeneration.Design" />
     <None Remove="Microsoft.EntityFrameworkCore.SqlServer" />
     <None Remove="Microsoft.EntityFrameworkCore.Tools" />
@@ -37,7 +36,15 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Models\Entities\" />
-    <Folder Include="Views\Product\" />
     <Folder Include="Models\Migrations\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Update="Views\Product\User">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Remove="Views\Product\Create.cshtml" />
   </ItemGroup>
 </Project>
