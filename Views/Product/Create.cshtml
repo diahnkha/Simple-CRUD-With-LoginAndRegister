@@ -1,0 +1,56 @@
+﻿@model RAS.Bootcamp.Mvc.Net.Models.Entities.User;
+
+@{
+    ViewData["Title"] = "Create Page";
+}
+
+<h1>Create</h1>
+
+<hr />
+
+<div class="row">
+    <div class="col-6">
+
+        <div class="card">
+
+            <div class="card-header">
+                <h5>Create a new List</h5>
+            </div>
+
+            <div class="card-body">
+                <form asp-controller="Product" asp-action="Create" method="post">
+
+                    <div class="mb-3">
+                        <label class="form-label">Username</label>
+                        <input asp-for=Username type="text" class="form-control" />
+                        <span asp-validation-for="Username"></span>
+                    </div>
+
+                    <div class="mb-3">
+                        <label class="form-label">Password</label>
+                        <input asp-for=Password type="text" class="form-control" />
+                        <span asp-validation-for="Password"></span>
+                    </div>
+
+                    <div class="mb-3">
+                        <label class="form-label">Tipe</label>
+                        <input asp-for=Tipe type="text" class="form-control" />
+                        <span asp-validation-for="Tipe"></span>
+                    </div>
+
+                    <div class="mb-3">
+                        <button type="submit" class="btn btn-primary" >Create</button>
+                    </div>
+
+                </form>
+            </div>
+
+            <div class="card-footer">
+            </div>
+
+
+        </div>
+
+
+    </div>
+</div>

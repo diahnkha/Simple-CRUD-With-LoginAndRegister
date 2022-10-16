@@ -1,0 +1,128 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = RAS.Bootcamp.Mvc.Net
+build_property.RootNamespace = RAS.Bootcamp.Mvc.Net
+build_property.ProjectDir = /Users/diahnurkhasanah/Projects/RAS.Bootcamp.Mvc.Net/
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = /Users/diahnurkhasanah/Projects/RAS.Bootcamp.Mvc.Net
+build_property._RazorSourceGeneratorDebug = 
+
+[/Users/diahnurkhasanah/Projects/RAS.Bootcamp.Mvc.Net/Views/Barang/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQmFyYW5nL0NyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/diahnurkhasanah/Projects/RAS.Bootcamp.Mvc.Net/Views/Barang/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQmFyYW5nL0RlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/diahnurkhasanah/Projects/RAS.Bootcamp.Mvc.Net/Views/Barang/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQmFyYW5nL0VkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/diahnurkhasanah/Projects/RAS.Bootcamp.Mvc.Net/Views/Barang/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQmFyYW5nL0luZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/diahnurkhasanah/Projects/RAS.Bootcamp.Mvc.Net/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/diahnurkhasanah/Projects/RAS.Bootcamp.Mvc.Net/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Qcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/diahnurkhasanah/Projects/RAS.Bootcamp.Mvc.Net/Views/Pembeli/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUGVtYmVsaS9DcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/diahnurkhasanah/Projects/RAS.Bootcamp.Mvc.Net/Views/Pembeli/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUGVtYmVsaS9EZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/diahnurkhasanah/Projects/RAS.Bootcamp.Mvc.Net/Views/Pembeli/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUGVtYmVsaS9FZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/diahnurkhasanah/Projects/RAS.Bootcamp.Mvc.Net/Views/Pembeli/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUGVtYmVsaS9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/diahnurkhasanah/Projects/RAS.Bootcamp.Mvc.Net/Views/Penjual/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUGVuanVhbC9DcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/diahnurkhasanah/Projects/RAS.Bootcamp.Mvc.Net/Views/Penjual/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUGVuanVhbC9EZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/diahnurkhasanah/Projects/RAS.Bootcamp.Mvc.Net/Views/Penjual/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUGVuanVhbC9FZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/diahnurkhasanah/Projects/RAS.Bootcamp.Mvc.Net/Views/Penjual/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUGVuanVhbC9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/diahnurkhasanah/Projects/RAS.Bootcamp.Mvc.Net/Views/Product/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHJvZHVjdC9DcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/diahnurkhasanah/Projects/RAS.Bootcamp.Mvc.Net/Views/Product/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHJvZHVjdC9EZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/diahnurkhasanah/Projects/RAS.Bootcamp.Mvc.Net/Views/Product/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHJvZHVjdC9FZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/diahnurkhasanah/Projects/RAS.Bootcamp.Mvc.Net/Views/Product/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHJvZHVjdC9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/diahnurkhasanah/Projects/RAS.Bootcamp.Mvc.Net/Views/ProductTemp/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHJvZHVjdFRlbXAvQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/diahnurkhasanah/Projects/RAS.Bootcamp.Mvc.Net/Views/ProductTemp/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHJvZHVjdFRlbXAvRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/diahnurkhasanah/Projects/RAS.Bootcamp.Mvc.Net/Views/ProductTemp/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHJvZHVjdFRlbXAvRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/diahnurkhasanah/Projects/RAS.Bootcamp.Mvc.Net/Views/ProductTemp/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHJvZHVjdFRlbXAvRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/diahnurkhasanah/Projects/RAS.Bootcamp.Mvc.Net/Views/ProductTemp/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHJvZHVjdFRlbXAvSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/diahnurkhasanah/Projects/RAS.Bootcamp.Mvc.Net/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0Vycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/diahnurkhasanah/Projects/RAS.Bootcamp.Mvc.Net/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/diahnurkhasanah/Projects/RAS.Bootcamp.Mvc.Net/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/diahnurkhasanah/Projects/RAS.Bootcamp.Mvc.Net/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/diahnurkhasanah/Projects/RAS.Bootcamp.Mvc.Net/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-fjw9zqu84a

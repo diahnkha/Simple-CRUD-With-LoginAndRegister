@@ -1,0 +1,39 @@
+﻿@using System.Collections;
+
+@model List<RAS.Bootcamp.Mvc.Net.Models.Entities.Penjual>
+
+<table>
+    <th>
+    <tr>Id</tr>
+    <tr>ID User</tr>
+    <tr>Nama Toko</tr>
+    <tr>Alamat</tr>
+    </th>
+    <tbody>
+        @if (Model != null)
+        {
+            foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.Id</td>
+                    <td>@item.IdUser</td>
+                    <td>@item.NamaToko</td>
+                    <td>@item.Alamat</td>
+                    <td>
+                        <div class="w-75 btn-group" role="group">
+                            <a asp-controller="Penjual" asp-action="Edit" asp-route-id="@item.Id"
+                               class="btn btn-primary mx-2"> <i class="bi bi-pencil-square"></i> Edit</a>
+                            <a asp-controller="Penjual" asp-action="Delete" asp-route-id="@item.Id"
+                               class="btn btn-danger mx-2"> <i class="bi bi-trash-fill"></i> Delete</a>
+                        </div>
+                    </td>
+                </tr>
+
+            }
+        }
+        else
+        {
+            <h1>Data Penjual null</h1>
+        }
+    </tbody>
+</table>

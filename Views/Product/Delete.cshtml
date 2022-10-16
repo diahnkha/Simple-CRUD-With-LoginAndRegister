@@ -1,0 +1,30 @@
+﻿@model RAS.Bootcamp.Mvc.Net.Models.Entities.User;
+
+
+<form asp-controller="Product" method="post" asp-action="Delete">
+    <input asp-for="Id" hidden />
+    <div class="border p-3 mt-4">
+        <div class="mb-3">
+            <label class="form-label">Id</label>
+            <input asp-for=Id type="number" disabled class="form-control" />
+        </div>
+
+        <div class="mb-3">
+            <label class="form-label">Username</label>
+            <input asp-for=Username type="text" disabled class="form-control" />
+        </div>
+
+        <div class="mb-3">
+            <label class="form-label">Password</label>
+            <input asp-for=Password type="text" disabled class="form-control" />
+        </div>
+
+        <div class="mb-3">
+            <label class="form-label">Tipe</label>
+            <input asp-for=Tipe type="text" disabled class="form-control" />
+        </div>
+        <button type="submit" class="btn btn-danger" style="width:150px">Delete</button>
+
+    </div>
+</form>
+

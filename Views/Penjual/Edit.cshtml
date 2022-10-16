@@ -1,0 +1,31 @@
+﻿@model RAS.Bootcamp.Mvc.Net.Models.Entities.Penjual;
+
+
+<form asp-controller="Penjual" asp-action="Edit" method="post">
+    <input asp-for="Id" hidden />
+    <div class="mb-3">
+        <label class="form-label">Id</label>
+        <input asp-for=Id type="number" disabled class="form-control" />
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">ID User</label>
+        <input asp-for=IdUser type="number" class="form-control" />
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">Nama Toko</label>
+        <input asp-for=NamaToko type="text" class="form-control" />
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">Alamat</label>
+        <input asp-for=Alamat type="text" class="form-control" />
+    </div>
+
+    <div class="mb-3">
+        <button type="submit" class="btn btn-primary">Update</button>
+    </div>
+
+</form>
+

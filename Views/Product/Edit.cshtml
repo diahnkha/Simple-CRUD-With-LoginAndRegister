@@ -1,0 +1,31 @@
+﻿@model RAS.Bootcamp.Mvc.Net.Models.Entities.User;
+
+
+<form asp-controller="Product" asp-action="Edit" method="post">
+
+    <div class="mb-3">
+        <label class="form-label">Id</label>
+        <input asp-for=Id type="number" disabled class="form-control" />
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">Username</label>
+        <input asp-for=Username type="text" class="form-control" />
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">Password</label>
+        <input asp-for=Password type="text" class="form-control" />
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">Tipe</label>
+        <input asp-for=Tipe type="text" class="form-control" />
+    </div>
+
+    <div class="mb-3">
+        <button type="submit" class="btn btn-primary">Update</button>
+    </div>
+
+</form>
+

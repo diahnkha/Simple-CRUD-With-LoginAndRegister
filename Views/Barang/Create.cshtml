@@ -1,0 +1,70 @@
+﻿@model RAS.Bootcamp.Mvc.Net.Models.Entities.Barang;
+
+@{
+    ViewData["Title"] = "Create Page";
+}
+
+<h1>Create</h1>
+
+<hr />
+
+<div class="row">
+    <div class="col-6">
+
+        <div class="card">
+
+            <div class="card-header">
+                <h5>Create a new List</h5>
+            </div>
+
+            <div class="card-body">
+                <form asp-controller="Barang" asp-action="Create" method="post">
+
+                    <div class="mb-3">
+                        <label class="form-label">Kode</label>
+                        <input asp-for=Kode type="text" class="form-control" />
+                        <span asp-validation-for="Kode"></span>
+                    </div>
+
+                    <div class="mb-3">
+                        <label class="form-label">Nama</label>
+                        <input asp-for=Nama type="text" class="form-control" />
+                        <span asp-validation-for="Nama"></span>
+                    </div>
+
+                    <div class="mb-3">
+                        <label class="form-label">Description</label>
+                        <input asp-for=Description type="text" class="form-control" />
+                        <span asp-validation-for="Description"></span>
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label">Harga</label>
+                        <input asp-for=Harga type="number" class="form-control" />
+                        <span asp-validation-for="Harga"></span>
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label">Stok</label>
+                        <input asp-for=Stok type="number" class="form-control" />
+                        <span asp-validation-for="Stok"></span>
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label">ID Penjual</label>
+                        <input asp-for=IdPenjual type="number" class="form-control" />
+                        <span asp-validation-for="IdPenjual"></span>
+                    </div>
+                    <div class="mb-3">
+                        <button type="submit" class="btn btn-primary">Create</button>
+                    </div>
+
+                </form>
+            </div>
+
+            <div class="card-footer">
+            </div>
+
+
+        </div>
+
+
+    </div>
+</div>

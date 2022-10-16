@@ -1,0 +1,38 @@
+﻿@model RAS.Bootcamp.Mvc.Net.Models.Entities.Barang;
+
+
+<form asp-controller="Barang" method="post" asp-action="Delete">
+    <input asp-for="Id" hidden />
+    <div class="border p-3 mt-4">
+        <div class="mb-3">
+            <label class="form-label">Kode</label>
+            <input asp-for=Kode type="text" disabled class="form-control" />
+        </div>
+
+        <div class="mb-3">
+            <label class="form-label">Nama</label>
+            <input asp-for=Nama type="text" disabled class="form-control" />
+        </div>
+
+        <div class="mb-3">
+            <label class="form-label">Description</label>
+            <input asp-for=Description type="text" disabled class="form-control" />
+        </div>
+
+        <div class="mb-3">
+            <label class="form-label">Harga</label>
+            <input asp-for=Harga type="number" disabled class="form-control" />
+        </div>
+        <div class="mb-3">
+            <label class="form-label">Stok</label>
+            <input asp-for=Stok type="number" disabled class="form-control" />
+        </div>
+        <div class="mb-3">
+            <label class="form-label">ID Penjual</label>
+            <input asp-for=IdPenjual type="number" disabled class="form-control" />
+        </div>
+        <button type="submit" class="btn btn-danger" style="width:150px">Delete</button>
+
+    </div>
+</form>
+
