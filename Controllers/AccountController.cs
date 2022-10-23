@@ -49,7 +49,7 @@ public class AccountController : Controller
             return View(request);
         }
 
-        if (user.Tipe == "GAADA")
+        if (user.Tipe == "PEMBELI")
         {
             ViewBag.ErrorMessage = "You'r not admin or seller";
 
