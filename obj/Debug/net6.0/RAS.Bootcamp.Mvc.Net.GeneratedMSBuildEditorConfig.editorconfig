@@ -11,9 +11,17 @@ build_property.RootNamespace = RAS.Bootcamp.Mvc.Net
 build_property.ProjectDir = /Users/diahnurkhasanah/Projects/RAS.Bootcamp.Mvc.Net/
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
-build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = true
 build_property.MSBuildProjectDirectory = /Users/diahnurkhasanah/Projects/RAS.Bootcamp.Mvc.Net
 build_property._RazorSourceGeneratorDebug = 
+
+[/Users/diahnurkhasanah/Projects/RAS.Bootcamp.Mvc.Net/Views/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWNjb3VudC9Mb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/diahnurkhasanah/Projects/RAS.Bootcamp.Mvc.Net/Views/Account/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWNjb3VudC9SZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/diahnurkhasanah/Projects/RAS.Bootcamp.Mvc.Net/Views/Barang/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQmFyYW5nL0NyZWF0ZS5jc2h0bWw=
@@ -29,6 +37,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [/Users/diahnurkhasanah/Projects/RAS.Bootcamp.Mvc.Net/Views/Barang/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQmFyYW5nL0luZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/diahnurkhasanah/Projects/RAS.Bootcamp.Mvc.Net/Views/Home/Forbidden.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Gb3JiaWRkZW4uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/diahnurkhasanah/Projects/RAS.Bootcamp.Mvc.Net/Views/Home/Index.cshtml]

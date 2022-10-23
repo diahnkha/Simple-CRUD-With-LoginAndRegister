@@ -17,6 +17,8 @@
     <None Remove="Microsoft.EntityFrameworkCore.Sqlite" />
     <None Remove="Swashbuckle.AspNetCore" />
     <None Remove="Models\Migrations\" />
+    <None Remove="Views\Account\" />
+    <None Remove="Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="6.0.10">
@@ -33,10 +35,12 @@
     </PackageReference>
     <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="6.0.7" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.3.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation" Version="6.0.10" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Models\Entities\" />
     <Folder Include="Models\Migrations\" />
+    <Folder Include="Views\Account\" />
   </ItemGroup>
   <ItemGroup>
     <None Update="Views\Product\User">

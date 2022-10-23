@@ -1,8 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Xml.Linq;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using RAS.Bootcamp.Mvc.Net.Models;
 using RAS.Bootcamp.Mvc.Net.Models.Entities;
@@ -12,6 +14,7 @@ using RAS.Bootcamp.Mvc.Net.Models.Entities;
 
 namespace RAS.Bootcamp.Mvc.Net.Controllers
 {
+    [Authorize(Roles = "ADMIN")]
     public class UserController : Controller
     {
         // GET: /<controller>/

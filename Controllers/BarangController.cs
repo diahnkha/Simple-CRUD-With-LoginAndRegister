@@ -2,51 +2,83 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using RAS.Bootcamp.Mvc.Net.Models;
 using RAS.Bootcamp.Mvc.Net.Models.Entities;
-
+using RAS.Bootcamp.Net;
 
 // For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
-namespace RAS.Bootcamp.Mvc.Net.Controllers
-{
-    public class BarangController : Controller
+namespace RAS.Bootcamp.Mvc.Net.Controllers;
+
+[Authorize(Roles = "PENJUAL")]
+
+public class BarangController : Controller
     {
         private readonly AppDbContext _dbContext;
         private static List<Barang> barangs = new List<Barang>();
+
 
         public BarangController(ILogger<BarangController> logger, AppDbContext dbContext)
         {
             _dbContext = dbContext;
         }
-
-        // GET: /<controller>/
-        public IActionResult Index()
+    
+    // GET: /<controller>/
+    public IActionResult Index()
         {
             List<Barang> barangs = _dbContext.Barangs.ToList();
             return View(barangs);
         }
 
-        public IActionResult Create()
+    public IActionResult Create()
         {
-            var barangs = new Barang();
+            var barangs = new BarangRequest();
             return View(barangs);
         }
 
-        //POST
-        [HttpPost]
+    //POST
+    [HttpPost]
         [ValidateAntiForgeryToken]
-        public IActionResult Create(Barang obj)
+        public IActionResult Create(BarangRequest obj)
         {
-                _dbContext.Barangs.Add(obj);
-                _dbContext.SaveChanges();
-                TempData["success"] = "Category created successfully";
-                return RedirectToAction("Index");
+            var UploadFolder = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "images");
+
+            if (!Directory.Exists(UploadFolder))
+                Directory.CreateDirectory(UploadFolder);
+
+            var filename = $"{obj.Kode}{obj.FileImage.FileName}";
+            var filePath = Path.Combine(UploadFolder, filename);
+            
+            using var stream = System.IO.File.Create(filePath);
+            if(obj.FileImage != null)
+            {
+                obj.FileImage.CopyTo(stream);
+            }
+
+            var Url = $"{Request.Scheme}://{Request.Host}{Request.PathBase}/images/{filename}";
+
+            _dbContext.Barangs.Add(new Barang
+            {
+                IdPenjual = 5,
+                Kode = obj.Kode,
+                Nama = obj.Nama,
+                Harga = obj.Harga,
+                Description = obj.Description,
+                Filename = filename,
+                Url = Url
+            });
+
+            //_dbContext.Barangs.Add(obj);
+            _dbContext.SaveChanges();
+            //TempData["success"] = "Category created successfully";
+            return RedirectToAction("Index");
+
         }
 
-        //GET
-        public IActionResult Edit(int? id)
+    //GET
+    public IActionResult Edit(int? id)
         {
             if (id == null || id == 0)
             {
@@ -64,8 +96,8 @@ namespace RAS.Bootcamp.Mvc.Net.Controllers
             return View(barangFromDb);
         }
 
-        //POST
-        [HttpPost]
+    //POST
+    [HttpPost]
         [ValidateAntiForgeryToken]
         public IActionResult Edit(Barang obj)
         {
@@ -75,7 +107,8 @@ namespace RAS.Bootcamp.Mvc.Net.Controllers
             return RedirectToAction("Index");
         }
 
-        public IActionResult Delete(int? id)
+
+    public IActionResult Delete(int? id)
         {
             if (id == null || id == 0)
             {
@@ -93,8 +126,8 @@ namespace RAS.Bootcamp.Mvc.Net.Controllers
             return View(barangFromDb);
         }
 
-        //POST
-        [HttpPost, ActionName("Delete")]
+    //POST
+    [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
         public IActionResult DeletePOST(int? id)
         {
@@ -111,5 +144,5 @@ namespace RAS.Bootcamp.Mvc.Net.Controllers
 
         }
     }
-}
+
 

@@ -1,4 +1,4 @@
-﻿@model RAS.Bootcamp.Mvc.Net.Models.Entities.Barang;
+﻿@model RAS.Bootcamp.Net.BarangRequest;
 
 @{
     ViewData["Title"] = "Create Page";
@@ -18,7 +18,7 @@
             </div>
 
             <div class="card-body">
-                <form asp-controller="Barang" asp-action="Create" method="post">
+                <form asp-controller="Barang" asp-action="Create" method="post" enctype="multipart/form-data"> 
 
                     <div class="mb-3">
                         <label class="form-label">Kode</label>
@@ -52,6 +52,12 @@
                         <input asp-for=IdPenjual type="number" class="form-control" />
                         <span asp-validation-for="IdPenjual"></span>
                     </div>
+                    <div class="mb-3">
+                        <label class="form-label">File Image</label>
+                        <input asp-for=FileImage type="file" class="form-control" />
+                        <span asp-validation-for="FileImage"></span>
+                    </div>
+
                     <div class="mb-3">
                         <button type="submit" class="btn btn-primary">Create</button>
                     </div>

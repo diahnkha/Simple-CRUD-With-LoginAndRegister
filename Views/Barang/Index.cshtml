@@ -10,6 +10,7 @@
     <tr>Harga</tr>
     <tr>Stok</tr>
     <tr>ID Penjual</tr>
+    <tr>Image</tr>
     </th>
     <tbody>
         @if (Model != null)
@@ -23,6 +24,7 @@
                     <td>@item.Harga</td>
                     <td>@item.Stok</td>
                     <td>@item.IdPenjual</td>
+                    <td><img style="width: 200px; height:200px;" src="@item.Url" /></td>
                     <td>
                         <div class="w-75 btn-group" role="group">
                             <a asp-controller="Barang" asp-action="Edit" asp-route-id="@item.Id"

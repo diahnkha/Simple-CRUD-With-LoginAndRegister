@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "XjwgrR38q6HfBhaW5SUIn1TbVsmJ9T2QfoWxVs2H7VaChK72ZoMB72AEaDzjMc9NqAxSCcsaVXqcTmTpSgeL3A==",
+  "dgSpecHash": "QWKRk62Z2ytbeme9FPDGw/jqqtEGdcfyr7JVXkmU/tjN00XCfnb4t9j6ntSjKncY91gJwTKF1CjhEB202aFR5w==",
   "success": true,
   "projectFilePath": "/Users/diahnurkhasanah/Projects/RAS.Bootcamp.Mvc.Net/RAS.Bootcamp.Mvc.Net.csproj",
   "expectedPackageFiles": [
@@ -8,7 +8,9 @@
     "/Users/diahnurkhasanah/.nuget/packages/messagepack/2.1.152/messagepack.2.1.152.nupkg.sha512",
     "/Users/diahnurkhasanah/.nuget/packages/messagepack.annotations/2.1.152/messagepack.annotations.2.1.152.nupkg.sha512",
     "/Users/diahnurkhasanah/.nuget/packages/messagepackanalyzer/2.1.152/messagepackanalyzer.2.1.152.nupkg.sha512",
-    "/Users/diahnurkhasanah/.nuget/packages/microsoft.aspnetcore.razor.language/6.0.0/microsoft.aspnetcore.razor.language.6.0.0.nupkg.sha512",
+    "/Users/diahnurkhasanah/.nuget/packages/microsoft.aspnetcore.mvc.razor.extensions/6.0.10/microsoft.aspnetcore.mvc.razor.extensions.6.0.10.nupkg.sha512",
+    "/Users/diahnurkhasanah/.nuget/packages/microsoft.aspnetcore.mvc.razor.runtimecompilation/6.0.10/microsoft.aspnetcore.mvc.razor.runtimecompilation.6.0.10.nupkg.sha512",
+    "/Users/diahnurkhasanah/.nuget/packages/microsoft.aspnetcore.razor.language/6.0.10/microsoft.aspnetcore.razor.language.6.0.10.nupkg.sha512",
     "/Users/diahnurkhasanah/.nuget/packages/microsoft.bcl.asyncinterfaces/5.0.0/microsoft.bcl.asyncinterfaces.5.0.0.nupkg.sha512",
     "/Users/diahnurkhasanah/.nuget/packages/microsoft.build/17.0.0/microsoft.build.17.0.0.nupkg.sha512",
     "/Users/diahnurkhasanah/.nuget/packages/microsoft.build.framework/17.0.0/microsoft.build.framework.17.0.0.nupkg.sha512",
@@ -21,7 +23,7 @@
     "/Users/diahnurkhasanah/.nuget/packages/microsoft.codeanalysis.csharp.scripting/4.0.0/microsoft.codeanalysis.csharp.scripting.4.0.0.nupkg.sha512",
     "/Users/diahnurkhasanah/.nuget/packages/microsoft.codeanalysis.csharp.workspaces/4.0.0/microsoft.codeanalysis.csharp.workspaces.4.0.0.nupkg.sha512",
     "/Users/diahnurkhasanah/.nuget/packages/microsoft.codeanalysis.features/4.0.0/microsoft.codeanalysis.features.4.0.0.nupkg.sha512",
-    "/Users/diahnurkhasanah/.nuget/packages/microsoft.codeanalysis.razor/6.0.0/microsoft.codeanalysis.razor.6.0.0.nupkg.sha512",
+    "/Users/diahnurkhasanah/.nuget/packages/microsoft.codeanalysis.razor/6.0.10/microsoft.codeanalysis.razor.6.0.10.nupkg.sha512",
     "/Users/diahnurkhasanah/.nuget/packages/microsoft.codeanalysis.scripting.common/4.0.0/microsoft.codeanalysis.scripting.common.4.0.0.nupkg.sha512",
     "/Users/diahnurkhasanah/.nuget/packages/microsoft.codeanalysis.visualbasic/4.0.0/microsoft.codeanalysis.visualbasic.4.0.0.nupkg.sha512",
     "/Users/diahnurkhasanah/.nuget/packages/microsoft.codeanalysis.visualbasic.features/4.0.0/microsoft.codeanalysis.visualbasic.features.4.0.0.nupkg.sha512",

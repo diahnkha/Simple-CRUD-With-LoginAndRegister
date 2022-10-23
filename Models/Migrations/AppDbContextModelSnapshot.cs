@@ -33,6 +33,11 @@ namespace RAS.Bootcamp.Mvc.Net.Models.Migrations
                         .IsRequired()
                         .HasColumnType("text");
 
+                    b.Property<string>("Filename")
+                        .IsRequired()
+                        .HasMaxLength(250)
+                        .HasColumnType("character varying(250)");
+
                     b.Property<decimal>("Harga")
                         .HasColumnType("numeric");
 
@@ -51,6 +56,11 @@ namespace RAS.Bootcamp.Mvc.Net.Models.Migrations
 
                     b.Property<int>("Stok")
                         .HasColumnType("integer");
+
+                    b.Property<string>("Url")
+                        .IsRequired()
+                        .HasMaxLength(250)
+                        .HasColumnType("character varying(250)");
 
                     b.HasKey("Id");
 
